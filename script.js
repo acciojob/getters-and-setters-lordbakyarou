@@ -1,9 +1,17 @@
 //complete this code
 class Person {}
 
-class Student extends Person {}
+class Student extends Person {
+	function study(){
+		console.log(`${this.name} is studying`)
+	}
+}
 
-class Teacher extends Person {}
+class Teacher extends Person {
+	function teach(){
+		console.log(`${this.name} is teaching`)
+	}
+}
 
 // Do not change the code below this line
 window.Person = Person;
