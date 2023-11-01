@@ -4,11 +4,11 @@ class Person {
     this.age = age;
   }
 
-  get name() {
+  get getName() {
     return this.name;
   }
 
-  set setter(age) {
+  setAge(age) {
     this.age = age;
   }
 }
@@ -24,7 +24,6 @@ class Teacher extends Person {
     console.log(`${this.name} is teaching`);
   }
 }
-
 // Do not change the code below this line
 window.Person = Person;
 window.Student = Student;
