@@ -1,5 +1,16 @@
 //complete this code
-class Person {}
+class Person {
+	constructor(name,age){
+		this.name = name;
+		this.age = age;
+	}
+
+	get name(){return this.name}
+
+	function setter(age){
+		this.age = age;
+	}
+}
 
 class Student extends Person {
 	function study(){
